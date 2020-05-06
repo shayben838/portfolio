@@ -1,0 +1,134 @@
+@import "./variables";
+
+.primary-color-text{
+    background-image: $primary-color;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#wrap_home_page{
+
+    min-height: 100vh;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    border-bottom: 0;
+    background: #fff;
+    font-weight: 400;
+    color: #272341;
+    margin-bottom: 0;
+    padding: 0px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    .home_page-title{
+        font-size: 2.1rem;
+        font-weight: 700;
+        margin-bottom: 3.2rem;
+        text-align: center;
+        line-height: 1.5;
+    }
+}
+.button_home{
+    @include Button($primary-color-text ,$primary-color-text, $secondery-color-text);
+    
+}
+
+.button_home:hover{
+    @include Button_hover($primary-color-text,$secondery-color-text);
+}
+section {
+    padding: 5rem 0;   
+}
+
+// ABOUT
+#about {
+    background-color: $primary-color-text;
+    background-image: $primary-color;
+    color: $secondery-color-text;
+    height: 100vh;
+    border-top: 0;
+    // -webkit-clip-path: polygon(0 0,100% 0,100% 80%,0 100%);
+    // clip-path: polygon(0 0,100% 0,100% 80%,0 100%);
+    padding-bottom: 10%;  
+    overflow: hidden;
+}
+.about_title{
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: .1rem;
+    font-weight: bold;
+}
+.Wrap_text{
+    margin-top: 40px;
+    padding: 20px;
+    font-size: 20px;
+}
+.button_about{
+    @include Button($secondery-color-text ,$secondery-color-text, transparent);
+
+    
+}
+.button_about:hover{
+    @include Button_hover($primary-color-text,$primary-color-text);
+}
+
+
+
+
+
+
+
+
+@media  screen and (min-width: $media-size-sm){
+    #wrap_home_page{
+        padding: 0px 80px
+    }
+    #wrap_home_page .home_page-title {
+        font-size: 2.5rem;
+        line-height: 1.5;
+        text-align: left;    
+    }
+    .Wrap_text{
+        margin-top: 40px;
+        padding: 50px;
+        font-size: 20px;
+    }
+
+} 
+
+@media  screen and (min-width: $media-size-md){
+    #wrap_home_page .home_page-title {
+        font-size: 3.0rem;
+    }
+    .Wrap_text{
+        margin-top: 40px;
+        padding: 50px;
+        font-size: 25px;
+    }
+    
+}
+@media  screen and (min-width: $media-size-lg){
+    #wrap_home_page .home_page-title {
+    font-size: 3.5rem;
+}
+.Wrap_text{
+    margin-top: 40px;
+    padding: 60px;
+    // font-size: 30px;
+}
+#about{
+    -webkit-clip-path: polygon(0 0,100% 0,100% 80%,0 100%);
+    clip-path: polygon(0 0,100% 0,100% 80%,0 100%);
+}
+}
+
+@media  screen and (min-width: 1600px){
+    .Wrap_text{
+        margin-top: 40px;
+        padding: 60px;
+        font-size: 2rem;
+    }
+
+}
