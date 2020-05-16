@@ -1,7 +1,12 @@
 $font-stack:    Helvetica, sans-serif;
-$primary-color: linear-gradient(135deg,#02aab0,#00cdac);
-$primary-color-text:#02aab0;
+$primary-color:  linear-gradient(90deg, rgba(47,156,39,1) 0%, rgba(84,205,68,1) 67%, rgba(62,147,25,1) 100%);
+$primary-color-text:rgb(47,156,39);
 $secondery-color-text:white;
+
+// $primary-color: linear-gradient(135deg,#02aab0,#00cdac);
+// $primary-color-text:#02aab0;
+// $secondery-color-text:white;
+
 
 $media-size-sm:600px;
 $media-size-md:900px;

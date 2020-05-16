@@ -73,7 +73,10 @@ section {
 .button_about:hover{
     @include Button_hover($primary-color-text,$primary-color-text);
 }
-
+#view{
+    margin-top: 10px;
+    font-size: 15px;
+}
 
 
 

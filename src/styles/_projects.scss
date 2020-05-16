@@ -101,9 +101,32 @@
 .wrap_icos a:hover{
     color: transparent;
 }
+.wrap_iamge_project{
+    height: 150px;
+    
+    
+}
+.meet_artist{
+        background-image: url("../components/meet_artist.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 100%;
+        height:100%;       
+        transition: all 1s; 
+        
+}
+.meet_artist:hover{
+    background-image: url("../components/meet_artist_2.png");
+
+}
+
 
 @media  screen and (min-width: $media-size-sm){
-
+    .wrap_iamge_project{
+        height: 300px;
+        
+        
+    }
 }
 
 @media  screen and (min-width: $media-size-lg){

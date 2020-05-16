@@ -4,6 +4,7 @@ import "../styles/main_style.css"
 
 import Aos from "aos"
 import "aos/dist/aos.css"
+import Animate from "./animation";
 
 const HomePage = () => {
     useEffect(() => {
@@ -15,6 +16,7 @@ const HomePage = () => {
         <div>
             <div id="wrap_home_page" className="jumbotron">
                 <div class="container" >
+                    <Animate/>
                     <h1 className="home_page-title animated bounceInLeft  delay-.9s" data-sr-id="4" >
                         Hello, my name is {" "}
                         <span className="primary-color-text">Shay Ben Shimol</span>
@@ -34,7 +36,7 @@ const HomePage = () => {
                             I'm a passionate person, friendly and realiable.
                             Self-learning is my first and foremost quality. I have great verbal and writing skills , high work ethics and standarts. I 'm also an underachieved guitar player , science fan and a history nerd.
                             <div className="mt-5 d-flex justify-content-center justify-content-sm-start  " data-aos="fade-up" >
-                            <a className="button_about" target="_blank" href="https://drive.google.com/file/d/1LMCy1ZknL_Gwnt4M0QsotZ4f6-v3QAGd/view?usp=sharing"> View Resume </a>
+                            <a id="view" className="button_about" target="_blank" href="https://drive.google.com/file/d/1LMCy1ZknL_Gwnt4M0QsotZ4f6-v3QAGd/view?usp=sharing"> View Resume </a>
                         </div>
                     </div>
                     {/* <div className="ml-5 d-flex justify-content-center justify-content-sm-start  " data-aos="fade-up" >
@@ -50,48 +52,32 @@ const HomePage = () => {
                         <h2 className="project_title ">Projects</h2>
 
                         {/* PROJECT 1 */}
-                        <div className=" row m-0 ">
+                        <div className=" row m-0  mb-1 mb-md-5">
                             <div className="col-lg-4 col-sm-12 pb-2 " data-aos="fade-right">
                                 <h4 className="project_name" >MeetArtist</h4>
                                 <p className="par_project" >A Full-Stack face-recognition web application made using React.js as the front-end framework. Node.js and Express.js are used for the RESTful API back-end server. The web app implements face-recognition with Clarifai API image recognition services. Moreover users information and hash passwords are being stored securely on a PostgreSQL Database.</p>
                                 <div className="d-flex">
                                     <div className=" d-flex justify-content-center justify-content-sm-start  " data-aos="fade-up" >
-                                        <a className="button_Project" target="_blank" href="https://drive.google.com/file/d/1LMCy1ZknL_Gwnt4M0QsotZ4f6-v3QAGd/view?usp=sharing"> See Live </a>
+                                        <a className="button_Project" target="_blank" href="https://infallible-agnesi-f06595.netlify.app/"> See Live </a>
                                     </div>
                                     <div className="ml-2 d-flex justify-content-center justify-content-sm-start  " data-aos="fade-up" >
                                         <a className="button_Project" style={{ border: "none" }} target="_blank" href="https://drive.google.com/file/d/1LMCy1ZknL_Gwnt4M0QsotZ4f6-v3QAGd/view?usp=sharing"> Source Code </a>
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-8 col-sm-12 wrap_iamge_project ">
-                                <a target="_blank" href="https://drive.google.com/file/d/1LMCy1ZknL_Gwnt4M0QsotZ4f6-v3QAGd/view?usp=sharing">
-                                    <img className="image_project img-thumbnail" data-aos="fade-left" src="https://tekkieuni.co.il/wp-content/uploads/2018/06/TU_Blog_Images_ART_3_799x416_pic1.jpg" alt="Cinque Terre" />
+
+                            <div className="col-lg-8 col-sm-12 wrap_iamge_project">
+                                <a target="_blank" href="https://infallible-agnesi-f06595.netlify.app/">
+                                   <div className="mt-5  meet_artist image_project " data-aos="fade-left">
+
+                                   </div>
+
                                 </a>
                             </div>
+
                         </div>
                         {/* PROJECT 2 */}
-                        <div className=" row m-0 ">
-                            <div className="col-lg-4 col-sm-12 pb-2 " data-aos="fade-right">
-                                <h4 className="project_name" >MeetArtist</h4>
-                                <p className="par_project" >A Full-Stack face-recognition web application made using React.js as the front-end framework. Node.js and Express.js are used for the RESTful API back-end server. The web app implements face-recognition with Clarifai API image recognition services. Moreover users information and hash passwords are being stored securely on a PostgreSQL Database.</p>
-                                <div className="d-flex">
-                                    <div className=" d-flex justify-content-center justify-content-sm-start  " data-aos="fade-up" >
-                                        <a className="button_Project" target="_blank" href="https://drive.google.com/file/d/1LMCy1ZknL_Gwnt4M0QsotZ4f6-v3QAGd/view?usp=sharing"> See Live </a>
-                                    </div>
-                                    <div className="ml-2 d-flex justify-content-center justify-content-sm-start  " data-aos="fade-up" >
-                                        <a className="button_Project" style={{ border: "none" }} target="_blank" href="https://drive.google.com/file/d/1LMCy1ZknL_Gwnt4M0QsotZ4f6-v3QAGd/view?usp=sharing"> Source Code </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-8 col-sm-12 wrap_iamge_project ">
-                                <a target="_blank" href="https://drive.google.com/file/d/1LMCy1ZknL_Gwnt4M0QsotZ4f6-v3QAGd/view?usp=sharing">
-                                    <img className="image_project img-thumbnail" data-aos="fade-left" src="https://tekkieuni.co.il/wp-content/uploads/2018/06/TU_Blog_Images_ART_3_799x416_pic1.jpg" alt="Cinque Terre" />
-                                </a>
-                            </div>
-                        </div>
-
-
-
+                     
                     </div>
                 </div>
 

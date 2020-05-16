@@ -18,7 +18,8 @@ html {
 }
 
 .primary-color-text {
-  background-image: linear-gradient(135deg, #02aab0, #00cdac);
+  background-image: -webkit-gradient(linear, left top, right top, from(#2f9c27), color-stop(67%, #54cd44), to(#3e9319));
+  background-image: linear-gradient(90deg, #2f9c27 0%, #54cd44 67%, #3e9319 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -54,22 +55,22 @@ html {
 }
 
 .button_home {
-  border: 1px solid #02aab0;
+  border: 1px solid #2f9c27;
   padding: 10px 20px;
   background-color: transparent;
-  background: -webkit-gradient(linear, left top, right top, color-stop(50%, #02aab0), color-stop(50%, white));
-  background: linear-gradient(to right, #02aab0 50%, white 50%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(50%, #2f9c27), color-stop(50%, white));
+  background: linear-gradient(to right, #2f9c27 50%, white 50%);
   background-size: 200% 100%;
   background-position: right bottom;
   -webkit-transition: all .4s ease-out;
   transition: all .4s ease-out;
-  color: #02aab0;
+  color: #2f9c27;
 }
 
 .button_home:hover {
   text-decoration: none;
   color: white;
-  background-color: #02aab0;
+  background-color: #2f9c27;
   letter-spacing: .1rem;
   background-position: left bottom;
 }
@@ -79,8 +80,9 @@ section {
 }
 
 #about {
-  background-color: #02aab0;
-  background-image: linear-gradient(135deg, #02aab0, #00cdac);
+  background-color: #2f9c27;
+  background-image: -webkit-gradient(linear, left top, right top, from(#2f9c27), color-stop(67%, #54cd44), to(#3e9319));
+  background-image: linear-gradient(90deg, #2f9c27 0%, #54cd44 67%, #3e9319 100%);
   color: white;
   height: 100vh;
   border-top: 0;
@@ -116,10 +118,15 @@ section {
 
 .button_about:hover {
   text-decoration: none;
-  color: #02aab0;
-  background-color: #02aab0;
+  color: #2f9c27;
+  background-color: #2f9c27;
   letter-spacing: .1rem;
   background-position: left bottom;
+}
+
+#view {
+  margin-top: 10px;
+  font-size: 15px;
 }
 
 @media screen and (min-width: 600px) {
@@ -199,30 +206,31 @@ section {
 }
 
 .button_Project {
-  border: 1px solid #02aab0;
+  border: 1px solid #2f9c27;
   padding: 10px 20px;
   background-color: transparent;
-  background: -webkit-gradient(linear, left top, right top, color-stop(50%, #02aab0), color-stop(50%, white));
-  background: linear-gradient(to right, #02aab0 50%, white 50%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(50%, #2f9c27), color-stop(50%, white));
+  background: linear-gradient(to right, #2f9c27 50%, white 50%);
   background-size: 200% 100%;
   background-position: right bottom;
   -webkit-transition: all .4s ease-out;
   transition: all .4s ease-out;
-  color: #02aab0;
+  color: #2f9c27;
   padding: 10px;
 }
 
 .button_Project:hover {
   text-decoration: none;
   color: white;
-  background-color: #02aab0;
+  background-color: #2f9c27;
   letter-spacing: .1rem;
   background-position: left bottom;
 }
 
 #contact {
-  background-color: #02aab0;
-  background-image: linear-gradient(135deg, #02aab0, #00cdac);
+  background-color: #2f9c27;
+  background-image: -webkit-gradient(linear, left top, right top, from(#2f9c27), color-stop(67%, #54cd44), to(#3e9319));
+  background-image: linear-gradient(90deg, #2f9c27 0%, #54cd44 67%, #3e9319 100%);
   color: white;
   height: 60vh;
   text-align: center;
@@ -258,7 +266,7 @@ section {
 .angle_up:hover {
   padding-top: 10px;
   font-size: 32px;
-  color: #02aab0;
+  color: #2f9c27;
   cursor: pointer;
 }
 
@@ -280,8 +288,9 @@ section {
 
 .line {
   height: 1px;
-  background-color: #02aab0;
-  background-image: linear-gradient(135deg, #02aab0, #00cdac);
+  background-color: #2f9c27;
+  background-image: -webkit-gradient(linear, left top, right top, from(#2f9c27), color-stop(67%, #54cd44), to(#3e9319));
+  background-image: linear-gradient(90deg, #2f9c27 0%, #54cd44 67%, #3e9319 100%);
   color: white;
   width: 40%;
   margin-left: auto;
@@ -296,6 +305,30 @@ section {
 
 .wrap_icos a:hover {
   color: transparent;
+}
+
+.wrap_iamge_project {
+  height: 150px;
+}
+
+.meet_artist {
+  background-image: url("../components/meet_artist.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.meet_artist:hover {
+  background-image: url("../components/meet_artist_2.png");
+}
+
+@media screen and (min-width: 600px) {
+  .wrap_iamge_project {
+    height: 300px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
