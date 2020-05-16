@@ -18,8 +18,8 @@ html {
 }
 
 .primary-color-text {
-  background-image: -webkit-gradient(linear, left top, right top, from(#2f9c27), color-stop(67%, #54cd44), to(#3e9319));
-  background-image: linear-gradient(90deg, #2f9c27 0%, #54cd44 67%, #3e9319 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(#4cd442), color-stop(32%, #31c31d), color-stop(69%, #5bc24a), to(#3e9319));
+  background-image: linear-gradient(90deg, #4cd442 0%, #31c31d 32%, #5bc24a 69%, #3e9319 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -81,9 +81,9 @@ section {
 
 #about {
   background-color: #2f9c27;
-  background-image: -webkit-gradient(linear, left top, right top, from(#2f9c27), color-stop(67%, #54cd44), to(#3e9319));
-  background-image: linear-gradient(90deg, #2f9c27 0%, #54cd44 67%, #3e9319 100%);
-  color: white;
+  background-image: -webkit-gradient(linear, left top, right top, from(#4cd442), color-stop(32%, #31c31d), color-stop(69%, #5bc24a), to(#3e9319));
+  background-image: linear-gradient(90deg, #4cd442 0%, #31c31d 32%, #5bc24a 69%, #3e9319 100%);
+  color: whitesmoke;
   height: 100vh;
   border-top: 0;
   padding-bottom: 10%;
@@ -179,11 +179,15 @@ section {
 }
 
 .project_title {
-  text-align: center;
   padding-top: 40px;
-  font-weight: bold;
-  font-size: 30px;
   padding-bottom: 20px;
+  color: #272341;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 80px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  line-height: 1;
+  text-align: center;
 }
 
 .project_name {
@@ -229,8 +233,8 @@ section {
 
 #contact {
   background-color: #2f9c27;
-  background-image: -webkit-gradient(linear, left top, right top, from(#2f9c27), color-stop(67%, #54cd44), to(#3e9319));
-  background-image: linear-gradient(90deg, #2f9c27 0%, #54cd44 67%, #3e9319 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(#4cd442), color-stop(32%, #31c31d), color-stop(69%, #5bc24a), to(#3e9319));
+  background-image: linear-gradient(90deg, #4cd442 0%, #31c31d 32%, #5bc24a 69%, #3e9319 100%);
   color: white;
   height: 60vh;
   text-align: center;
@@ -289,8 +293,8 @@ section {
 .line {
   height: 1px;
   background-color: #2f9c27;
-  background-image: -webkit-gradient(linear, left top, right top, from(#2f9c27), color-stop(67%, #54cd44), to(#3e9319));
-  background-image: linear-gradient(90deg, #2f9c27 0%, #54cd44 67%, #3e9319 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(#4cd442), color-stop(32%, #31c31d), color-stop(69%, #5bc24a), to(#3e9319));
+  background-image: linear-gradient(90deg, #4cd442 0%, #31c31d 32%, #5bc24a 69%, #3e9319 100%);
   color: white;
   width: 40%;
   margin-left: auto;

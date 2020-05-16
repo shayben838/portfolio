@@ -119,7 +119,7 @@
 }
 @keyframes sky {
      0% { 
-        background: rgb(47,156,39);
+        background: rgba(9,28,43,1);
     }
     50% {
         background:rgb(84,161,79);

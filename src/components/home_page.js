@@ -16,7 +16,7 @@ const HomePage = () => {
         <div>
             <div id="wrap_home_page" className="jumbotron">
                 <div class="container" >
-                    <Animate/>
+                    <Animate />
                     <h1 className="home_page-title animated bounceInLeft  delay-.9s" data-sr-id="4" >
                         Hello, my name is {" "}
                         <span className="primary-color-text">Shay Ben Shimol</span>
@@ -30,18 +30,38 @@ const HomePage = () => {
             {/* ABOUT */}
             <section id="about">
                 <div className="container ">
-                    <h2 data-aos="fade-left" id="about_title" className="lead about_title ">About Me</h2>
+
+
+
+                    <h2 style={{ letterSpacing: ".5rem" }} data-aos="fade-left" id="about_title" className="lead about_title lett_spec ">About Me</h2>
                     <div data-aos="fade-right" data-aos-delay="100" className="Wrap_text row ">
-                        <p data-aos="fade-left" style={{ fontWeight: "bold" }}>I worked for Intel Electronics as a Process Development Engineer but decided that my true passion is Code!</p>
-                            I'm a passionate person, friendly and realiable.
-                            Self-learning is my first and foremost quality. I have great verbal and writing skills , high work ethics and standarts. I 'm also an underachieved guitar player , science fan and a history nerd.
+
+                        <p data-aos="fade-left" style={{ fontWeight: "bold" }}>
+                            Full stack developers are investigative and artistic
+ </p>
+ A passion for knowledge :
+  Technology is always evolving, and the skills and abilities needed in today’s tech scene can get outdated quickly. It’s important to have a passion for learning and the desire to keep up with the latest trends.
+  Great teammate
+  Ability to plan for everything
+  “Accelerated Failure” Mentality
+  Business Sense
+  Creative problem solver
+  Curiosity and Inquisitiveness
+As a developer, when your code works (or it doesn’t) you need to not be afraid to ask “why” and keep digging till you find the answer.
+When working on a project, you should be comfortable asking superiors, clients or peers questions to ensure you understand expectations and requirements.
+You need to be willing to experiment, whether it’s with learning a new language or approaching a project or task in a new way. Sometimes you’ll succeed, other times you won’t, but those challenges and achievements are part of being a developer.
+
                             <div className="mt-5 d-flex justify-content-center justify-content-sm-start  " data-aos="fade-up" >
                             <a id="view" className="button_about" target="_blank" href="https://drive.google.com/file/d/1LMCy1ZknL_Gwnt4M0QsotZ4f6-v3QAGd/view?usp=sharing"> View Resume </a>
+
                         </div>
+
+
                     </div>
                     {/* <div className="ml-5 d-flex justify-content-center justify-content-sm-start  " data-aos="fade-up" >
                         <a className="button_about" target="_blank" href="https://drive.google.com/file/d/1LMCy1ZknL_Gwnt4M0QsotZ4f6-v3QAGd/view?usp=sharing"> View Resume </a>
                     </div> */}
+
                 </div>
             </section>
 
@@ -60,24 +80,24 @@ const HomePage = () => {
                                     <div className=" d-flex justify-content-center justify-content-sm-start  " data-aos="fade-up" >
                                         <a className="button_Project" target="_blank" href="https://infallible-agnesi-f06595.netlify.app/"> See Live </a>
                                     </div>
-                                    <div className="ml-2 d-flex justify-content-center justify-content-sm-start  " data-aos="fade-up" >
+                                    {/* <div className="ml-2 d-flex justify-content-center justify-content-sm-start  " data-aos="fade-up" >
                                         <a className="button_Project" style={{ border: "none" }} target="_blank" href="https://drive.google.com/file/d/1LMCy1ZknL_Gwnt4M0QsotZ4f6-v3QAGd/view?usp=sharing"> Source Code </a>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
 
                             <div className="col-lg-8 col-sm-12 wrap_iamge_project">
                                 <a target="_blank" href="https://infallible-agnesi-f06595.netlify.app/">
-                                   <div className="mt-5  meet_artist image_project " data-aos="fade-left">
+                                    <div className="mt-5  meet_artist image_project " data-aos="fade-left">
 
-                                   </div>
+                                    </div>
 
                                 </a>
                             </div>
 
                         </div>
                         {/* PROJECT 2 */}
-                     
+
                     </div>
                 </div>
 
@@ -88,7 +108,8 @@ const HomePage = () => {
                     <h2 data-aos="fade-right" className="about_title p-5">CONTACT</h2>
                     <p data-aos="fade-left" className="lead secondery_title">Make me an offer I can't refuse</p>
                     <div className=" d-flex justify-content-center   " data-aos="fade-up" >
-                        <a style={{ fontWeight: "bold" }} className="button_about" target="_blank" href="https://drive.google.com/file/d/1LMCy1ZknL_Gwnt4M0QsotZ4f6-v3QAGd/view?usp=sharing"> Send Now </a>
+                        <a style={{ fontWeight: "bold" }} className="button_about" target="_blank" href="mailto: shayben838@gmail.com"> Send Now </a>
+
                     </div>
                 </section>
 
