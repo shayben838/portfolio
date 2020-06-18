@@ -62,7 +62,7 @@ I have a strong focus on software quality and clean code.
 <br></br>
                             <br></br>
 
-I am eager to learn new things, Passionate about tech and programming in general, I have a big interest in everything related to Front-end Back-end technology.
+I am eager to learn new things, Passionate about tech and programming in general, I have a big interest in everything related to Front-end & Back-end technology.
 <br></br>
                             <br></br>
 
