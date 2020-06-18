@@ -87,7 +87,7 @@ I believe in tech and programming as a way to improve people lives and the focus
             </section>
 
 
-
+            <div className="line"></div>
 
             {/* Project */}
             <div style={{ overflow: "hidden" }}>
