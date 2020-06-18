@@ -5,13 +5,14 @@ import "../styles/main_style.css"
 import Aos from "aos"
 import "aos/dist/aos.css"
 import Animate from "./animation";
+import Skils from "./skils/skils";
 
 const HomePage = () => {
     useEffect(() => {
         Aos.init({ duration: 2000 });
 
     }, [])
-
+    const about_me = ""
     return (
         <div>
             <div id="wrap_home_page" className="jumbotron">
@@ -21,37 +22,57 @@ const HomePage = () => {
                         Hello, my name is {" "}
                         <span className="primary-color-text">Shay Ben Shimol</span>
                         <br />and I'm a Full-Stack Developer.</h1>
-                    <div className=" d-flex justify-content-center justify-content-sm-start  animated fadeInDown  delay-.9s" >
-                        <a className="button_home" href="#about"> Learn more </a>
+                    <div className="d-flex">
+                        <div className=" d-flex justify-content-center justify-content-sm-start  animated fadeInDown  delay-.9s" >
+                            <a className="button_home" href="#skills"> Skills </a>
+                        </div>
+                        <div className="ml-2 d-flex justify-content-center justify-content-sm-start  animated fadeInDown  delay-.9s" >
+                            <a className="button_home" href="#about"> Who am i? </a>
+                        </div>
+                        <div className="ml-2 d-flex justify-content-center justify-content-sm-start  animated fadeInDown  delay-.9s" >
+                            <a className="button_home" href="#contact"> Contact </a>
+                        </div>
                     </div>
                 </div>
             </div>
 
+
+            <Skils />
+
+
             {/* ABOUT */}
-            <section id="about">
+
+            <section id="about" className="p-0">
                 <div className="container ">
-
-
-
-                    <h2 style={{ letterSpacing: ".5rem" }} data-aos="fade-left" id="about_title" className="lead about_title lett_spec ">About Me</h2>
+                    {/* <h2 style={{ letterSpacing: ".5rem" }} data-aos="fade-left" id="about_title" className="lead about_title lett_spec ">Who am I</h2> */}
+                    <h2 className="about_title ">Who am i? </h2>
                     <div data-aos="fade-right" data-aos-delay="100" className="Wrap_text row ">
 
-                        <p data-aos="fade-left" style={{ fontWeight: "bold" }}>
-                            Full stack developers are investigative and artistic
- </p>
- A passion for knowledge :
-  Technology is always evolving, and the skills and abilities needed in today’s tech scene can get outdated quickly. It’s important to have a passion for learning and the desire to keep up with the latest trends.
-  Great teammate
-  Ability to plan for everything
-  “Accelerated Failure” Mentality
-  Business Sense
-  Creative problem solver
-  Curiosity and Inquisitiveness
-As a developer, when your code works (or it doesn’t) you need to not be afraid to ask “why” and keep digging till you find the answer.
-When working on a project, you should be comfortable asking superiors, clients or peers questions to ensure you understand expectations and requirements.
-You need to be willing to experiment, whether it’s with learning a new language or approaching a project or task in a new way. Sometimes you’ll succeed, other times you won’t, but those challenges and achievements are part of being a developer.
+                        <p data-aos="fade-left" className="text_about">
+                            Hello, I am Shay, a Full Stack Web Developer, from Tel Aviv, Israel, specialized in End to End Development.
+                        <br></br>
+                            <br></br>
 
-                            <div className="mt-5 d-flex justify-content-center justify-content-sm-start  " data-aos="fade-up" >
+Despite my experience or preferences, I always try to keep up to date with other programming languages and frameworks so that I can keep improving my knowledge and skills. I believe in always choosing the best technology for the the job, even if we need to get out of our comfort zone.
+<br></br>
+                            <br></br>
+
+I have a strong focus on software quality and clean code.
+
+<br></br>
+                            <br></br>
+
+I am eager to learn new things, Passionate about tech and programming in general, I have a big interest in everything related to Front-end Back-end technology.
+<br></br>
+                            <br></br>
+
+I believe in tech and programming as a way to improve people lives and the focus should always be in the people!
+
+    </p>
+                        {/* <Animate /> */}
+
+
+                        <div className="mt-5 d-flex justify-content-center justify-content-sm-start  " >
                             <a id="view" className="button_about" target="_blank" href="https://drive.google.com/file/d/1LMCy1ZknL_Gwnt4M0QsotZ4f6-v3QAGd/view?usp=sharing"> View Resume </a>
 
                         </div>
@@ -64,6 +85,9 @@ You need to be willing to experiment, whether it’s with learning a new languag
 
                 </div>
             </section>
+
+
+
 
             {/* Project */}
             <div style={{ overflow: "hidden" }}>

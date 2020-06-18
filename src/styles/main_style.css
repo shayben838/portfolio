@@ -80,31 +80,38 @@ section {
 }
 
 #about {
-  background-color: #2f9c27;
-  background-image: -webkit-gradient(linear, left top, right top, from(#4cd442), color-stop(32%, #31c31d), color-stop(69%, #5bc24a), to(#3e9319));
-  background-image: linear-gradient(90deg, #4cd442 0%, #31c31d 32%, #5bc24a 69%, #3e9319 100%);
-  color: whitesmoke;
-  height: 100vh;
+  background-color: white;
+  background-image: white;
+  color: #353a3f;
+  height: 100%;
   border-top: 0;
-  padding-bottom: 10%;
   overflow: hidden;
 }
 
 .about_title {
-  text-align: center;
-  font-size: 40px;
-  letter-spacing: .1rem;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  color: #272341;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 60px;
   font-weight: bold;
+  letter-spacing: -1px;
+  line-height: 1;
+  text-align: center;
+}
+
+.text_about {
+  font-size: 15px;
 }
 
 .Wrap_text {
-  margin-top: 40px;
+  margin-top: 20px;
   padding: 20px;
   font-size: 20px;
 }
 
 .button_about {
-  border: 1px solid white;
+  border: 1px solid #353a3f;
   padding: 10px 20px;
   background-color: transparent;
   background: -webkit-gradient(linear, left top, right top, color-stop(50%, white), color-stop(50%, transparent));
@@ -113,12 +120,12 @@ section {
   background-position: right bottom;
   -webkit-transition: all .4s ease-out;
   transition: all .4s ease-out;
-  color: white;
+  color: #353a3f;
 }
 
 .button_about:hover {
   text-decoration: none;
-  color: #2f9c27;
+  color: #353a3f;
   background-color: #2f9c27;
   letter-spacing: .1rem;
   background-position: left bottom;
@@ -142,6 +149,12 @@ section {
     margin-top: 40px;
     padding: 50px;
     font-size: 20px;
+  }
+  .about_title {
+    font-size: 80px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 1;
   }
 }
 
@@ -348,6 +361,80 @@ section {
 @media screen and (max-width: 991px) {
   .wrap_iamge_project {
     margin-top: 20px;
+  }
+}
+
+.skils_title {
+  text-align: center;
+  font-size: 30px;
+}
+
+#skills {
+  background-color: #2f9c27;
+  background-image: -webkit-gradient(linear, left top, right top, from(#4cd442), color-stop(32%, #31c31d), color-stop(69%, #5bc24a), to(#3e9319));
+  background-image: linear-gradient(90deg, #4cd442 0%, #31c31d 32%, #5bc24a 69%, #3e9319 100%);
+  color: whitesmoke;
+  height: 100vh;
+  border-top: 0;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+  padding-bottom: 10%;
+  overflow: hidden;
+  font-size: 15px;
+}
+
+.skills-block {
+  padding: 40px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #353a3f;
+}
+
+.inner-skills {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.circle_logo {
+  background-color: whitesmoke;
+  color: #353a3f;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: -25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+  #skills {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 99%, 0% 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 99%, 0% 100%);
+    background-color: #2f9c27;
+    background-image: -webkit-gradient(linear, left top, right top, from(#4cd442), color-stop(32%, #31c31d), color-stop(69%, #5bc24a), to(#3e9319));
+    background-image: linear-gradient(90deg, #4cd442 0%, #31c31d 32%, #5bc24a 69%, #3e9319 100%);
+    color: whitesmoke;
+    height: 100%;
+    padding-bottom: 10%;
+    overflow: hidden;
   }
 }
 /*# sourceMappingURL=main_style.css.map */
