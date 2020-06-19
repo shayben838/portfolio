@@ -69,10 +69,10 @@ I believe in tech and programming as a way to improve people lives and the focus
 
     </p>
 
-                        {/* <div className="mt-5 d-flex justify-content-center justify-content-sm-start  " >
-                            <a id="view" className="button_about" target="_blank" href="https://drive.google.com/file/d/1LMCy1ZknL_Gwnt4M0QsotZ4f6-v3QAGd/view?usp=sharing"> View Resume </a>
+                        <div className="mt-5 d-flex justify-content-center justify-content-sm-start  " >
+                            <a rel="noopener noreferrer" id="view" className="button_about" target="_blank" href="https://drive.google.com/file/d/1LMCy1ZknL_Gwnt4M0QsotZ4f6-v3QAGd/view?usp=sharing"> View Resume </a>
 
-                        </div> */}
+                        </div>
 
 
                     </div>
