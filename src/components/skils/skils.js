@@ -1,7 +1,6 @@
 import React from 'react';
 import "../../styles/main_style.css"
 import SkillBox from './skill_box';
-import Animate from '../animation';
 
 const Skils = () => {
     const Frontend =["React/Redux/Hooks","Javascript","HTML/CSS/SASS/LESS","Mobile First","Bootstrap "]

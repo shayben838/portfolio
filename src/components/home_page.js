@@ -12,7 +12,6 @@ const HomePage = () => {
         Aos.init({ duration: 2000 });
 
     }, [])
-    const about_me = ""
     return (
         <div>
             <div id="wrap_home_page" className="jumbotron">
@@ -69,20 +68,15 @@ I am eager to learn new things, Passionate about tech and programming in general
 I believe in tech and programming as a way to improve people lives and the focus should always be in the people!
 
     </p>
-                        {/* <Animate /> */}
 
-
-                        <div className="mt-5 d-flex justify-content-center justify-content-sm-start  " >
+                        {/* <div className="mt-5 d-flex justify-content-center justify-content-sm-start  " >
                             <a id="view" className="button_about" target="_blank" href="https://drive.google.com/file/d/1LMCy1ZknL_Gwnt4M0QsotZ4f6-v3QAGd/view?usp=sharing"> View Resume </a>
 
-                        </div>
+                        </div> */}
 
 
                     </div>
-                    {/* <div className="ml-5 d-flex justify-content-center justify-content-sm-start  " data-aos="fade-up" >
-                        <a className="button_about" target="_blank" href="https://drive.google.com/file/d/1LMCy1ZknL_Gwnt4M0QsotZ4f6-v3QAGd/view?usp=sharing"> View Resume </a>
-                    </div> */}
-
+    
                 </div>
             </section>
 
@@ -102,7 +96,7 @@ I believe in tech and programming as a way to improve people lives and the focus
                                 <p className="par_project" >A Full-Stack face-recognition web application made using React.js as the front-end framework. Node.js and Express.js are used for the RESTful API back-end server. The web app implements face-recognition with Clarifai API image recognition services. Moreover users information and hash passwords are being stored securely on a PostgreSQL Database.</p>
                                 <div className="d-flex">
                                     <div className=" d-flex justify-content-center justify-content-sm-start  " data-aos="fade-up" >
-                                        <a className="button_Project" target="_blank" href="https://infallible-agnesi-f06595.netlify.app/"> See Live </a>
+                                        <a className="button_Project" rel="noopener noreferrer" target="_blank" href="https://infallible-agnesi-f06595.netlify.app/"> See Live </a>
                                     </div>
                                     {/* <div className="ml-2 d-flex justify-content-center justify-content-sm-start  " data-aos="fade-up" >
                                         <a className="button_Project" style={{ border: "none" }} target="_blank" href="https://drive.google.com/file/d/1LMCy1ZknL_Gwnt4M0QsotZ4f6-v3QAGd/view?usp=sharing"> Source Code </a>
@@ -111,7 +105,7 @@ I believe in tech and programming as a way to improve people lives and the focus
                             </div>
 
                             <div className="col-lg-8 col-sm-12 wrap_iamge_project">
-                                <a target="_blank" href="https://infallible-agnesi-f06595.netlify.app/">
+                                <a target="_blank" rel="noopener noreferrer" href="https://infallible-agnesi-f06595.netlify.app/">
                                     <div className="mt-5  meet_artist image_project " data-aos="fade-left">
 
                                     </div>
@@ -132,7 +126,7 @@ I believe in tech and programming as a way to improve people lives and the focus
                     <h2 data-aos="fade-right" className="about_title p-5">CONTACT</h2>
                     <p data-aos="fade-left" className="lead secondery_title">Make me an offer I can't refuse</p>
                     <div className=" d-flex justify-content-center   " data-aos="fade-up" >
-                        <a style={{ fontWeight: "bold" }} className="button_about" target="_blank" href="mailto: shayben838@gmail.com"> Send Now </a>
+                        <a style={{ fontWeight: "bold" }} className="button_about" target="_blank" rel="noopener noreferrer" href="mailto: shayben838@gmail.com"> Send Now </a>
 
                     </div>
                 </section>
@@ -145,9 +139,9 @@ I believe in tech and programming as a way to improve people lives and the focus
                         </a>
                     </div>
                     <div className="mt-3 wrap_icos">
-                        <a href="https://www.linkedin.com/in/shay-ben-shimol-972338196/" target="_blank">  <i href="https://www.linkedin.com/in/shay-ben-shimol-972338196/" className="icon_footer mr-2 fab fa-linkedin"></i></a>
+                        <a href="https://www.linkedin.com/in/shay-ben-shimol-972338196/" rel="noopener noreferrer" target="_blank">  <i href="https://www.linkedin.com/in/shay-ben-shimol-972338196/" className="icon_footer mr-2 fab fa-linkedin"></i></a>
 
-                        <a href="https://github.com/shayben838" target="_blank">    <i className="icon_footer ml-2 fab fa-github-square"></i></a>
+                        <a href="https://github.com/shayben838" rel="noopener noreferrer" target="_blank">    <i className="icon_footer ml-2 fab fa-github-square"></i></a>
                     </div>
 
                     <div className="line"></div>

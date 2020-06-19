@@ -1,7 +1,5 @@
 import React from "react";
 import "../styles/animate.css"
-
-import Aos from "aos"
 import "aos/dist/aos.css"
 
 
