@@ -21,7 +21,7 @@ const HomePage = () => {
                         Hello, my name is {" "}
                         <span className="primary-color-text">Shay Ben Shimol</span>
                         <br />and I'm a Full-Stack Developer.</h1>
-                    <div className="d-flex">
+                    <div className="d-flex justify-content-center justify-content-md-start">
                         <div className=" d-flex justify-content-center justify-content-sm-start  animated fadeInDown  delay-.9s" >
                             <a className="button_home" href="#skills"> Skills </a>
                         </div>
