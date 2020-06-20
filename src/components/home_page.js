@@ -93,7 +93,11 @@ I believe in tech and programming as a way to improve people lives and the focus
                         <div className=" row m-0  mb-1 mb-md-5">
                             <div className="col-lg-4 col-sm-12 pb-2 " data-aos="fade-right">
                                 <h4 className="project_name" >MeetArtist</h4>
-                                <p className="par_project" >A Full-Stack face-recognition web application made using React.js as the front-end framework. Node.js and Express.js are used for the RESTful API back-end server. The web app implements face-recognition with Clarifai API image recognition services. Moreover users information and hash passwords are being stored securely on a PostgreSQL Database.</p>
+                                <p className="par_project" >
+                                A Full-Stack  web application
+                                 made using React.js as the front-end framework. 
+                                 Node.js and Express.js are used for the RESTful API back-end server. 
+                                  Moreover users information and hash passwords are being stored securely on a mySQL Database.</p>
                                 <div className="d-flex">
                                     <div className=" d-flex justify-content-center justify-content-sm-start  " data-aos="fade-up" >
                                         <a className="button_Project" rel="noopener noreferrer" target="_blank" href="https://infallible-agnesi-f06595.netlify.app/"> See Live </a>
