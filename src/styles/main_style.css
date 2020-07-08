@@ -195,7 +195,7 @@ section {
   padding-top: 40px;
   padding-bottom: 20px;
   color: #272341;
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   font-size: 80px;
   font-weight: bold;
   letter-spacing: -1px;
@@ -206,7 +206,7 @@ section {
 .project_name {
   font-size: 20px;
   font-weight: bold;
-  letter-spacing: .1rem;
+  letter-spacing: 0.1rem;
 }
 
 .par_project {
@@ -276,8 +276,8 @@ section {
   color: white;
   font-size: 30px;
   padding-top: 20px;
-  -webkit-transition: all .6s;
-  transition: all .6s;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
 }
 
 .angle_up:hover {
@@ -294,8 +294,8 @@ section {
 .icon_footer {
   color: white;
   font-size: 40px;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .icon_footer:hover {
@@ -328,8 +328,9 @@ section {
   height: 150px;
 }
 
-.meet_artist {
-  background-image: url("../components/meet_artist.png");
+.img_project {
+  -webkit-box-shadow: 10px 10px 10px 10px #d4d4d4;
+          box-shadow: 10px 10px 10px 10px #d4d4d4;
   background-repeat: no-repeat;
   background-size: 100%;
   width: 100%;
@@ -338,8 +339,20 @@ section {
   transition: all 1s;
 }
 
+.meet_artist {
+  background-image: url("../components/meet_artist.png");
+}
+
 .meet_artist:hover {
   background-image: url("../components/meet_artist_2.png");
+}
+
+.cv_tracker {
+  background-image: url("../components/cv_tracker_1.PNG");
+}
+
+.cv_tracker:hover {
+  background-image: url("../components/cv_tracker_2.PNG");
 }
 
 @media screen and (min-width: 600px) {
