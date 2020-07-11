@@ -87,7 +87,7 @@ const HomePage = () => {
                 id='view'
                 className='button_about'
                 target='_blank'
-                href='https://drive.google.com/file/d/1LMCy1ZknL_Gwnt4M0QsotZ4f6-v3QAGd/view?usp=sharing'
+                href='https://drive.google.com/file/d/15bSYzTZsW9UpsuYIWizbjoIF_-HivVaR/view?usp=sharing'
               >
                 {" "}
                 View Resume{" "}
