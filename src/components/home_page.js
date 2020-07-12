@@ -68,8 +68,8 @@ const HomePage = () => {
               Despite my experience or preferences, I always try to keep up to
               date with other programming languages and frameworks so that I can
               keep improving my knowledge and skills. I believe in always
-              choosing the best technology for the the job, even if we need to
-              get out of our comfort zone.
+              choosing the best technology for the job, even if we need to get
+              out of our comfort zone.
               <br></br>
               <br></br>I have a strong focus on software quality and clean code.
               <br></br>
@@ -78,7 +78,7 @@ const HomePage = () => {
               related to Front-end & Back-end technology.
               <br></br>
               <br></br>I believe in tech and programming as a way to improve
-              people lives and the focus should always be in the people!
+              people`s lives and the focus should always be in the people!
             </p>
 
             <div className='mt-5 d-flex justify-content-center justify-content-sm-start  '>
